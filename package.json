@@ -1,0 +1,20 @@
+{
+  "name": "api-nodejs-with-jwt",
+  "version": "1.0.0",
+  "description": "Criando uma api com JWT para criacao do access token",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon src/index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^3.0.8",
+    "express": "^4.17.1",
+    "jsonwebtoken": "^8.5.1",
+    "knex": "^0.95.4",
+    "mysql": "^2.18.1",
+    "nodemon": "^2.0.7"
+  }
+}
