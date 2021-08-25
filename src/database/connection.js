@@ -1,3 +1,4 @@
+const config = require('../config');
 const knex = require('knex')
 
 //arquivo de configuracao
