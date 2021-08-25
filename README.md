@@ -1,28 +1,28 @@
 - API NODE JS com JSONWEBTOKEN
 
-Uma pequena integracao para geracao do Access Token e validacao
+Uma pequena integracao para geracao do Access Token, validacao e apresentação de conteúdo
 
-- ROTAS: [
-    /
-    /login
-    /register
-    /listar -> (validada por middleware)
-    /criar-item -> (validada por middleware)
+1. ROTAS: [
+   1.  /
+   2.  /login
+   3.  /register
+   4.  /listar -> (validada por middleware)
+   5.  /criar-item -> (validada por middleware)
 ]
 
-- REQUESTS: {
-    login, register = [
+2. REQUESTS: {
+    1. login, register = [
         'name': 'your_username',
         'password': 'your_password
     ],
 
-    listar: {
+    2. listar: {
         headers: [
             x-access-token: 'your_access-token'
         ]
     },
 
-    criar-item: {
+    3. criar-item: {
         headers: [
             x-access-token: 'your_access-token'
         ],
@@ -30,4 +30,4 @@ Uma pequena integracao para geracao do Access Token e validacao
     }
 }
 
-obs: codigo simples para entendimento
+obs: codigo simples para entendimento.
